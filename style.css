@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Enriqueta', serif;
+}
+body{
+    /*background-color: rgb(250, 247, 243);*/
+    background: rgb(18,18,18);
+  
+     background: linear-gradient(246deg, rgba(18,18,18,1) 35%, rgba(23, 32, 65, 0.384) 100%);
+}
+.logo{
+    color: aqua;
+    margin-left: 15px;
+    margin-top: 0;
+    margin-right: 15px;
+
+}
+h3{
+    color: #9b9b9b;
+}
+a{
+    text-decoration: none;
+    color: #9b9b9b;
+}
+ul{
+    
+    list-style: none;
+}
+
+.contenedor{
+    text-align: center;
+    width: 100%;
+    max-width: 1500px;
+    margin:auto;
+}
+.categorias{
+    margin-top: 10px;
+    display: flex;
+    justify-content:space-around;
+    
+}
+#cat1:hover {
+    cursor : pointer;
+    color: aqua;
+
+}
+#cat2:hover {
+    cursor : pointer;
+    color: aqua;
+}
+#cat3:hover {
+    cursor : pointer;
+    color: aqua;
+}
+header{
+    text-align: left;
+    margin-left: 15px;
+}
+#estudios{
+    margin-top: 50px;
+}
+#experiencia{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+img{
+    float: left;
+    width: 115px;
+    height: 129px;
+}
+
+
+
+
+
